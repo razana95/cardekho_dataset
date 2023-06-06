@@ -1,25 +1,52 @@
-# cardekho_dataset
-dataset link: https://www.kaggle.com/datasets/nehalbirla/vehicle-dataset-from-cardekho
+# Car Dekho Dataset - EDA and Used Car Price Prediction
 
-Cars Data from Car Dekho: 
-CarDekho.com is India's leading car search venture that helps users buy new and used cars that are right for them. They have information regarding the detailed specs and price for a lot of used cars.  
-The dataset is sourced from CarDekho.com where you have information about 4340 cars such as their make year, fuel type, Kms driven etc. The details of the dataset is given below. The dataset provides a comprehensive view of the used cars’ market in India and as a Data scientist, you are tasked with extracting important insights and trends from this data as well as create a system capable of predicting the price of a used car given its specifications. 
+This repository contains the Car Dekho dataset, along with the code and analysis for exploratory data analysis (EDA), data preprocessing, and used car price prediction using machine learning algorithms.
+
+## Dataset
+
+The Car Dekho dataset used in this project is a collection of information about used cars in India. It includes details such as car make, year of manufacture, selling price, kilometers driven, fuel type, seller type, transmission type, and owner history. The dataset is available on Kaggle and can be accessed using the following link:
+
+- [Car Dekho Dataset (Kaggle)](https://www.kaggle.com/datasets/nehalbirla/vehicle-dataset-from-cardekho)
+
+## Project Overview
+
+In this project, we aim to accomplish the following objectives:
+
+### Objective 1: Exploratory Data Analysis (EDA)
+
+- Perform an initial analysis of the dataset, understanding each feature and its significance.
+- Discover trends and insights by exploring the distribution and relationships of variables.
+- Visualize the data using appropriate plots and charts to gain a comprehensive understanding of the used car market in India.
+
+### Objective 2: Data Preprocessing
+
+- Identify and handle missing values in the dataset, employing suitable techniques such as imputation or removal.
+- Detect and deal with outliers or skewed variables to ensure data quality.
+- Convert categorical variables into numerical features using appropriate encoding methods, such as one-hot encoding or label encoding.
+
+### Objective 3: Used Car Price Prediction
+
+- Select relevant features from the preprocessed dataset based on the EDA and analysis.
+- Utilize suitable machine learning algorithms to build a predictive model for used car price estimation.
+- Train the model using the chosen features and evaluate its performance using appropriate evaluation metrics.
+
+## Usage
+
+1. Clone the repository:
+
+   ```shell
+   git clone https://github.com/your_username/cardekho-dataset.git
+Download the Car Dekho dataset from Kaggle using the provided link and place it in the project directory.
+Open the Jupyter Notebook or Python script to access the code and perform various analysis tasks.
+Run the code cells or execute the script to generate the EDA results, preprocess the data, and train the price prediction model.
+Customize the code as per your requirements, experiment with different algorithms, or modify the feature selection process to enhance the model's accuracy.
+License
+
+This project is licensed under the MIT License. Feel free to use and modify the code and analysis as per your needs.
+
+## Acknowledgements
+
+I would like to express my gratitude to CarDekho.com for providing the dataset used in this project. I appreciate their efforts in collecting and sharing this valuable data.
 
 
 
-Objective 1: Perform EDA and analyze this data to discover trends and provide your insights.
-Objective 2: Identify and handle missing values, outliers or skewed variables if any. Convert categorical variables into numerical features using appropriate methods. 
-Objective 3: After EDA and pre-processing, choose suitable variables from the dataset as per your analysis and use it to predict the price of a used car.
-
-Dataset details:
-The columns in the given dataset are as follows:
-Name - object
-Year - int64
-selling_price - int64
-km_driven - int64
-fuel - object
-seller_type - object
-transmission - object
-Owner - object
-
-performed model training with appropriate features and with appropriate algorithm
